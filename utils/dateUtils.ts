@@ -10,7 +10,7 @@ import {
   lastDayOfMonth,
   isSameMonth
 } from 'date-fns';
-import { AgeResult, BirthdayCountdown, ZodiacInfo } from '../types';
+import { AgeResult, BirthdayCountdown, ZodiacInfo } from '../types.ts';
 
 /**
  * Calculates age precisely with month-end logic.

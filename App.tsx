@@ -19,8 +19,8 @@ import {
   History
 } from 'lucide-react';
 import { isValid, isAfter, startOfToday, parse, parseISO, format, getDaysInMonth } from 'date-fns';
-import { calculateAge, getBirthdayCountdown, getZodiacSign } from './utils/dateUtils';
-import { AgeResult, BirthdayCountdown, ZodiacInfo } from './types';
+import { calculateAge, getBirthdayCountdown, getZodiacSign } from './utils/dateUtils.ts';
+import { AgeResult, BirthdayCountdown, ZodiacInfo } from './types.ts';
 
 type InputMode = 'dropdown' | 'manual';
 
